@@ -46,28 +46,28 @@ nav {
     padding-right: .5em;
     padding-bottom: .5em;
     text-align: center;
-    font-family: "Helvetica Neue", Arial, sans-serif; /* Change font to a more elegant option */
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.2em;
     background-color: #f2f2f2;
 }
 
 nav a {     
     text-decoration: none;
-    font-size: 1.3em; /* Increase font size */ 
+    font-size: 1.3em;
 }
 
 nav a.active {
-    color: #fc7b7b; /* Text color for the active menu item */
-    background-color: #f2f2f2; /* Background color for the active menu item */
-    padding: 0.5em 1em; /* Adjust padding to create a square shape */
-    display: inline-block; /* Ensures the square shape */
-    border-radius: 5px; /* Adds rounded corners */
+    color: #fc7b7b; 
+    background-color: #f2f2f2; 
+    padding: 0.5em 1em; 
+    display: inline-block; 
+    border-radius: 5px; 
 }
 
 nav a:hover {
-    background-color: #555; /* Background color for the menu item on hover */
-    color: #fc7b7b; /* Text color for the menu item on hover */
-    padding: 0.5em 1.5em; /* Adjust padding to increase width on hover */
+    background-color: #555; 
+    color: #fc7b7b; 
+    padding: 0.5em 1.5em;
 }
 
 nav ul { 
@@ -80,7 +80,7 @@ nav ul {
 }
 
 nav li { 
-    position: relative; /* Ensure the submenu position is relative to the parent */
+    position: relative;
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: 1em;
@@ -120,7 +120,7 @@ nav li:hover .submenu {
 .card {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
     max-width: 450px;
-    margin: auto; /* Add margin around each card */
+    margin: auto; 
     text-align: center;
     font-family: arial;
     position: relative;
@@ -130,8 +130,8 @@ nav li:hover .submenu {
 
 .card-cont{
     display: flex;
-    justify-content: space-around; /* Adjust the spacing between cards */
-    margin-top: 20px; /* Add margin to separate the sections */
+    justify-content: space-around; 
+    margin-top: 20px;
 }
 
 .card-cont-a{
@@ -169,8 +169,8 @@ nav li:hover .submenu {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .card-cont {
-    flex-direction: column; /* Stack cards vertically on smaller screens */
-    /* Add any other styles for the vertical layout */
+    flex-direction: column; 
+   
   }
 }
 .card img {
@@ -203,7 +203,8 @@ nav li:hover .submenu {
   }
   .nadda-link {
     color: #270ec6; /* Specify the color for the link */
-    text-decoration: bold; /* Optionally, remove underline */
+    text-decoration: none; /* Optionally, remove underline */
+    font-weight: bold;
 }
 
 #home p {
