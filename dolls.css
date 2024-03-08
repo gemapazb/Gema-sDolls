@@ -110,6 +110,40 @@ nav ul li a {
 nav li:hover .submenu {
     display: block; /* Display the submenu when hovering over the parent menu item */
 }
+#middle p {
+    max-width: 2020px;
+    font-size: 20px; /* Change the font size */
+    line-height: 1.8; /* Set the line spacing */
+    text-align: justify; /* Align text to justify */
+    margin: 40px; /* Add margin around the paragra0ph */
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#flow img {
+    max-width: 100%; /* Make sure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper rendering */
+    padding-top: 80px
+
+}
+
+
+
+.doll-care-container {
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: auto; 
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    padding: 20px;
+}
+.doll-care-container p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+}
+
 .container {
     display: flex;
     justify-content: center; /* Center the cards horizontally */
@@ -119,7 +153,7 @@ nav li:hover .submenu {
 }
 .card {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-    max-width: 450px;
+    max-width: 550px;
     margin: auto; 
     text-align: center;
     font-family: arial;
@@ -165,13 +199,16 @@ nav li:hover .submenu {
   
 }
 
-
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+
+{
   .card-cont {
     flex-direction: column; 
    
   }
+
+
 }
 .card img {
     width: 100%;
@@ -210,16 +247,18 @@ nav li:hover .submenu {
 #home p {
     line-height: 2.6; /* Adjust the line height for all paragraphs */
     text-align: center; /* Center the text within the container */
-    margin: 0 auto; /* Center the paragraph horizontally */
+    margin: 0 auto; /* Center the paragrph horizontally */
     max-width: 800px; /* Set a maximum width for the paragraph */
     padding: 0 20px; /* Add some padding to the sides of the paragraph */
-
+    border: 3px solid #555; /* Add a border around the paragraph for a nice visual effect */
+   border-radius: 5px;
+   font-size: 20px;
 }
 
 #about-content p {
     line-height: 2.6; /* Adjust the line height for the paragraph */
     text-align: center; /* Center the text within the container */
-    
+       
 
 }
 
@@ -251,10 +290,10 @@ nav li:hover .submenu {
     font-size: 20px; /* Increase the font size for better readability */
     line-height: 2.6; /* Add some line spacing to prevent the text from looking too cramped */
     margin-bottom: 20px; /* Add some margin at the bottom to create space between paragraphs */
-    margin: 60px; /* Add margin on all sides of the paragraph */
-   padding: 60px; /* Add padding inside the paragraph for additional spacing */
+    margin: 20px; /* Add margin on all sides of the paragraph */
+   padding: 30px; /* Add padding inside the paragraph for additional spacing */
    border: 3px solid #555; /* Add a border around the paragraph for a nice visual effect */
-   border-radius: 10px; /* Add rounded corners to the border */
+   border-radius: 5px; /* Add rounded corners to the border */
   }
 #carousel {
     position: relative;
@@ -416,6 +455,8 @@ textarea:invalid:focus {
 
 
 @media (min-width: 600px) {
+
+
     h1 {         
         letter-spacing: .25em; 
         font-size: 2em;
@@ -441,14 +482,17 @@ textarea:invalid:focus {
         padding-left: 1em;
         padding-right: 1em; 
     }
+   
     
     #flow { 
-        justify-content: center; /* Center pods on smaller screens */
+        display: flex;
+        flex-flow: row; /* Center pods on smaller screens */
     }
 
     #mobile { 
         display: inline; /* Show mobile navigation */
     }
+    
 
     #desktop { 
         display: none; /* Hide desktop navigation */
